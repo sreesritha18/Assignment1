@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+</head>
+<style>
+    ul {
+        width: 200px;
+        background-color: rgb(168, 247, 247);
+      }
+      
+      li a {
+        display: block;
+        color: blue;
+        padding: 8px 16px;
+      }
+      
+      li a.active {
+        background-color:#F0BC07 ;
+        color: white;
+      }
+      
+      li a:hover:not(.active) {
+        background-color:#C4EAF2;
+        color: white
+      }
+      .align{
+        display: inline-block;
+        background-color: rgb(190, 185, 185);
+        width: 300px;
+        height: 20px;
+        
+        padding: 14px 16px;
+        color: blue;
+        
+      }
+      .pad{
+        text-align: center;
+        padding: 14px 16px;
+        border-right: 1px solid blue;
+      }
+      .paded{
+        text-align: center;
+        padding: 14px 16px;
+        background-color: grey;
+        border-right: 1px solid blue;
+      }
+      
+
+
+</style>
+<body>
+<h2 ><b>Vertical Navigation bar</b></h2>
+
+    <ul type="none">
+    
+   <li><a class="active" href="https://codemithra.com/">Home</a></li>
+   <li><a  href="https://www.java.com/en/">Java</a></li>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+   <li><a href="https://html.com/">HTML</a></li>
+   <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+</ul>
+
+<h2><b>Horizontal Navigation Bar</b></h2>
+
+<div class="align">
+    <a  class="paded"  href="https://codemithra.com/"  >Home</a>
+    <a  href="https://www.java.com/en/" class="pad">Java</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"  class="pad">CSS</a>
+    <a href="https://html.com/"  class="pad">HTML</a>
+    
+
+</div>
+
+</body>
+</html>
